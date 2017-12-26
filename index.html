@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Chat</title>
+<link rel='stylesheet' href='/stylesheets/style.css'></link>
+</head>
+<body>
+<div id='content'>
+
+<div>
+	<a href="javascript:void(0)" onclick="openCMD">Try cmd ?</a>
+	<input type="text" id="commandBox"/>
+	<input type="button" value="execute"  id="execute"/>
+</div>
+<div id='room' >
+	<div id="lineInfo" style="margin:5px">
+		
+	</div>
+</div>
+	<div id="liveInfo">
+		
+	</div>
+
+<div id='room-list'></div>
+<div id='messages'>
+	<iframe src="file?file=sample.log&isDefault=true" width="95%" height="95%" id="fileBrowser"></iframe>
+</div>
+
+<div id='cmd'>
+	
+</div>
+
+</div>
+<script src='/socket.io/socket.io.js' type='text/javascript'></script>
+<script src='http://code.jquery.com/jquery-1.8.0.min.js' type='text/javascript'></script>
+<script src='/javascripts/logWindow_client.js' type="text/javascript"></script>
+
+</body>
+</html>

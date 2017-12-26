@@ -1,0 +1,66 @@
+body{
+padding:50px;
+font:14px"LucidaGrande",Helvetica,Arial, sans-serif;
+}
+a {
+color:#00B7FF;
+}
+#content{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+#room{
+	width: 80%;
+    padding: 5px;
+background-color:#ddd;
+margin-bottom:1em;
+}
+#messages{
+width:80%;
+height:300px;
+overflow:auto;
+background-color:#eee;
+margin-bottom:1em;
+margin-right:10px;
+}
+#cmd{
+width:80%;
+height:300px;
+overflow:auto;
+background-color:#eee;
+margin-bottom:1em;
+margin-right:10px;
+}
+#room-list{
+float:right;
+width:18%;
+height:300px;
+overflow:auto;
+}
+#room-listdiv{
+border-bottom:1pxsolid#eee;
+}
+#room-listdiv:hover{
+background-color:#ddd;
+}
+#send-message{
+width:700px;
+margin-bottom:1em;
+margin-right:1em;
+}
+#help{
+font:10px"LucidaGrande",Helvetica,Arial, sans-serif;
+}
+
+.logWin {
+	width: 75%;
+    height: 100%;    
+    border: 1px solid red;
+}
+
+.fileWin {
+	width: 25%;
+    height: 100%;    
+    border: 1px solid red;
+}
